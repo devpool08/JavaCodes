@@ -57,6 +57,6 @@ public class a_Array {
         int[][] anotherArray = { { 1, 2, 3 }, { 4, 5, 6 }, { 7 } };
         System.out.println(Arrays.equals(array2, anotherArray));
         System.out.println(Arrays.deepEquals(array2, anotherArray));
-        System.out.println("all set");
+        System.out.println("Hare Krishna");
     }
 }
