@@ -16,7 +16,7 @@ class GenericContainer<T> implements gen5<T> {
 public class gen7 {
     public static void main(String[] args) {
         GenericContainer<String> container = new GenericContainer<>();
-        container.add("Hello, Generics!");
+        container.add("Hare Krishna");
         System.out.println(container.get());
     }
 }
