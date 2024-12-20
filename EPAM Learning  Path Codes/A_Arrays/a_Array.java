@@ -58,5 +58,6 @@ public class a_Array {
         System.out.println(Arrays.equals(array2, anotherArray));
         System.out.println(Arrays.deepEquals(array2, anotherArray));
         System.out.println("Hare Krishna");
+        System.out.println("good to go");
     }
 }
