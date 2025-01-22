@@ -6,29 +6,31 @@ public class b_Array
 {
     public static void main(String[] args)
     {
-        int s[] = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
-        int d[] = { 15, 25, 35, 45, 55, 65, 75, 85, 95, 105};
+        int[] s = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        int[] d = { 15, 25, 35, 45, 55, 65, 75, 85, 95, 105};
 
-        int source_arr[], sourcePos, dest_arr[], destPos, len;
-        source_arr = s;
-        sourcePos = 3;
-        dest_arr = d;
-        destPos = 5;
-        len = 4;
+        int[] source_arr;
+        int sourcePos;
+        int[] dest_arr;
+        int destPos;
+        int len;
+        source_arr = s;// assign array to source_arr now source_arr is pointing to s
+        sourcePos = 3;// starting position in source array
+        dest_arr = d;// assign array to dest_arr now dest_arr is pointing to d
+        destPos = 5;// starting position in destination array
+        len = 4;// number of array elements to be copied
 
         // Print elements of source
         System.out.print("source_array : ");
-        for (int i = 0; i < s.length; i++)
-            System.out.print(s[i] + " ");
-        System.out.println("");
+        for (int j : s) System.out.print(j + " ");
+        System.out.println();
 
         System.out.println("sourcePos : " + sourcePos);
 
         // Print elements of source
         System.out.print("dest_array : ");
-        for (int i = 0; i < d.length; i++)
-            System.out.print(d[i] + " ");
-        System.out.println("");
+        for (int j : d) System.out.print(j + " ");
+        System.out.println();
 
         System.out.println("destPos : " + destPos);
 
@@ -42,8 +44,7 @@ public class b_Array
 
         // Print elements of destination after
         System.out.print("final dest_array : ");
-        for (int i = 0; i < d.length; i++)
-            System.out.print(d[i] + " ");
+        for (int j : d) System.out.print(j + " ");
         
     }
 }
