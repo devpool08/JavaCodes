@@ -1,7 +1,7 @@
 package D_OOPS;
 
 final class Car1 {
-    private int numOfCars;
+    private int numOfCars;// it is by default initialized by zero
 
     public static int getNumb() {
         return numb;
@@ -11,7 +11,7 @@ final class Car1 {
         Car1.numb = numb;
     }
 
-    private static int numb = 0;
+    private static int numb;
     //other fields
     public Car1() {
         numOfCars++;

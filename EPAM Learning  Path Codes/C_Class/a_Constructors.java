@@ -1,4 +1,5 @@
 package C_Class;
+@SuppressWarnings("ALL")
 class Example {
     int value;
 
@@ -18,9 +19,11 @@ class Example {
 
 
 }
+@SuppressWarnings("ALL")
 class  Car{
 
 }
+@SuppressWarnings("ALL")
 class InitDemo3 {
     //...
     private static byte by = 17;
@@ -28,7 +31,7 @@ class InitDemo3 {
 
     //...
 }
-
+@SuppressWarnings("ALL")
 class Example2 {
     int value;
     String name;
@@ -48,13 +51,14 @@ class Example2 {
         System.out.println("Value: " + value + ", Name: " + name);
     }
 }
+@SuppressWarnings("ALL")
 class Example3 {
     public void display() {
         System.out.println("Display method called");
     }
 }
 
-
+@SuppressWarnings("ALL")
 public class a_Constructors {
     public static void main(String[] args) {
         Example example = new Example(42);

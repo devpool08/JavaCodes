@@ -1,5 +1,7 @@
 package B_ConditionalStatement;
 
+
+@SuppressWarnings("ALL")
 public class ConditionalStatement {
     public static int defineLevel(String role) {
         //yield used in enhanced switch statement to return the default value

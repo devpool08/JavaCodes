@@ -2,6 +2,9 @@ package A_Arrays;
 
 // Java program explaining System class method - arraycopy()
 import java.lang.*;
+
+
+@SuppressWarnings("ALL")
 public class b_Array
 {
     public static void main(String[] args)

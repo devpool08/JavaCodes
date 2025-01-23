@@ -1,5 +1,8 @@
 package E_Enum;
 
+
+
+@SuppressWarnings("ALL")
 public enum enm {
     /*
     * Here the relation among the variable is Sunday is an enm variable

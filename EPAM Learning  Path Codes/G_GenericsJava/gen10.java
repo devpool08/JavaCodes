@@ -1,4 +1,6 @@
 package G_GenericsJava;
+
+@SuppressWarnings("ALL")
 interface Igen10{
     void print();
 }
@@ -30,6 +32,7 @@ class MyNum extends Number implements  Igen10{
         return value;
     }
 }
+@SuppressWarnings("ALL")
 class demo<T extends Number &  Igen10>{
     /*class demo<T extends Igen10 &Number>{}:
      * This will Cause an error because multiple inheritance not allowed in java
@@ -47,6 +50,7 @@ class demo<T extends Number &  Igen10>{
 
 
 }
+@SuppressWarnings("ALL")
 public class gen10 {
     public static void main(String[] args) {
         MyNum myNum=new MyNum(10);

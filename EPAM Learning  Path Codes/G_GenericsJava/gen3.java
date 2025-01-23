@@ -1,5 +1,7 @@
 package G_GenericsJava;
 
+
+@SuppressWarnings("ALL")
 class Box<T> { //  one or more type parameters
     //  These type parameters are placeholders that are replaced with specific types when the class is instantiated.
     private T value;
@@ -22,6 +24,7 @@ class Box<T> { //  one or more type parameters
    }
     * */
 }
+@SuppressWarnings("ALL")
 public class gen3 {
     public static void main(String[] args) {
         Box<Integer> box = new Box<>();  // Box is now type-safe

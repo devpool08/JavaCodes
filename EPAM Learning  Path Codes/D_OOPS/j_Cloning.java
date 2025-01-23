@@ -4,6 +4,7 @@ import java.util.Date;
 
 //class Student {//this will show an error because
 // it does not implement the runnable interface
+@SuppressWarnings("ALL")
 class Student  implements Cloneable{
     private Date yearSet;
     private int group;

@@ -1,5 +1,5 @@
 package B_ConditionalStatement;
-
+@SuppressWarnings("ALL")
 public class Loops {
     public static void main(String[] arg) {
         {

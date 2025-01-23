@@ -19,6 +19,7 @@ class CarInsurance extends Insurance {
         return "CarInsurance";
     }
 }
+@SuppressWarnings("ALL")
 public class f_Polymorphisms {
     public static void main(String[] args) {
 

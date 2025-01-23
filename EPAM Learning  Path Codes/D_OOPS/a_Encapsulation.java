@@ -4,6 +4,8 @@ package D_OOPS;
 //import C_Class.Car;
 import C_Class.c_DynamicInit;
 
+
+@SuppressWarnings("ALL")
 public class a_Encapsulation {
     public static void main(String[] arg) {
         b_Encapsulation  fastCar = new b_Encapsulation();

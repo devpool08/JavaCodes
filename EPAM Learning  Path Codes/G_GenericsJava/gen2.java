@@ -2,6 +2,9 @@ package G_GenericsJava;
 
 import java.util.ArrayList;
 
+
+
+@SuppressWarnings("ALL")
 public class gen2 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();

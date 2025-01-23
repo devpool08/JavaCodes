@@ -10,6 +10,7 @@ class  node{
     node next;
 
 }
+@SuppressWarnings("ALL")
 public class a_Array {
     public static void main(String[] args)
     {

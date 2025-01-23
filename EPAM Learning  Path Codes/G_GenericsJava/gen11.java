@@ -1,15 +1,16 @@
 package G_GenericsJava;
 
-import java.util.Arrays;
-
 /*
 *              Generic method and generic constructor
 * */
+
+@SuppressWarnings("ALL")
 class box11 {
     public <T extends Number> box11(T val){
         System.out.println("Box constructor: " + val);
     }
 }
+@SuppressWarnings("ALL")
 public class gen11 {
     public static void main(String[] args) {
         box11 b1 = new box11(10);

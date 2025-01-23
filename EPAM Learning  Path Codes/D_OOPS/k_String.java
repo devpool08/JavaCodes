@@ -1,5 +1,7 @@
 package D_OOPS;
 
+
+@SuppressWarnings("ALL")
 class Student2 {
     private String name;
     public Student2(String name) {

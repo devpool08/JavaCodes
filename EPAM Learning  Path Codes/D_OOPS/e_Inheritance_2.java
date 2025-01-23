@@ -1,5 +1,5 @@
 package D_OOPS;
-
+@SuppressWarnings("ALL")
 class Cat {
     String msg;
     Cat() {
@@ -19,6 +19,7 @@ class BritishCat extends Cat {
         //super(msg);  Call to 'super()' must be first statement in constructor body
     }
 }
+@SuppressWarnings("ALL")
 public class e_Inheritance_2 {
     public static void main(String[] arg) {
         /*

@@ -1,12 +1,14 @@
 package D_OOPS;
-
+@SuppressWarnings("ALL")
 interface OperateCar {
     void startEngine();
    public abstract void stopEngine();
 }
+@SuppressWarnings("ALL")
 interface Parkable {
     void park();
 }
+@SuppressWarnings("ALL")
 interface Moveable {
     void move();
 }
@@ -35,6 +37,7 @@ class Car2 implements OperateCar, Parkable, Moveable {
 }
 // …
 // Superclass with a method
+@SuppressWarnings("ALL")
 class Animal2 {
     //public void hello(); this will show error
     public void makeSound() {
@@ -59,7 +62,7 @@ class Dog extends Animal2 implements SoundMaker {
     }
 }
 
-
+@SuppressWarnings("ALL")
 public class i_Interface {
     public static void main(String[] args) {
         OperateCar сar = new Car2 ();

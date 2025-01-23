@@ -1,6 +1,7 @@
 package G_GenericsJava;
 
 
+@SuppressWarnings("ALL")
 class IntegerContainer<T extends Number> implements gen8<T> {
     private T item;
 
@@ -14,6 +15,7 @@ class IntegerContainer<T extends Number> implements gen8<T> {
         return item;
     }
 }
+@SuppressWarnings("ALL")
 public class gen9 {
     public static void main(String[] args) {
         IntegerContainer<Integer> integerContainer = new IntegerContainer<>();

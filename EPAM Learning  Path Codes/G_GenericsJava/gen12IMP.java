@@ -23,6 +23,8 @@ enum calculator{
         return 0;
     }
 }
+
+@SuppressWarnings("ALL")
 public class gen12IMP {
     public static void main(String[] args) {
         calculator calc = calculator.ADD;

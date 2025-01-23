@@ -2,6 +2,8 @@ package G_GenericsJava;
 
 import java.util.ArrayList;
 
+
+@SuppressWarnings("ALL")
 public class gen1 {
     public static void main(String[] args) {
         ArrayList list = new ArrayList();//if we are not defined the generic it stores the element in form of object

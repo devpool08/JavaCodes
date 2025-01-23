@@ -9,6 +9,7 @@ class Reptiles extends Animal {  it will show an error message
 }because abstract method is not implemented in the child class
 
 */
+@SuppressWarnings("ALL")
 abstract class Animal {
     public abstract void move();
     //public  abstract int i;// it will show an error message bcz there is
@@ -22,6 +23,8 @@ abstract class Animal {
 
 abstract class Reptiles extends Animal {   }
 
+
+@SuppressWarnings("ALL")
 class Boa extends Reptiles {
     @Override
     public void move() {

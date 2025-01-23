@@ -25,11 +25,10 @@ public class c_DynamicInit {
 
 
     {
-        a = -5;
+        a = -3;
         System.out.println("Dynamic initialization section");
     }
     public c_DynamicInit() {
-        a = 10;
         b = 10;
         System.out.println("Constructor");
     }

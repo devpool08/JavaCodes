@@ -2,6 +2,7 @@ package G_GenericsJava;
 
 import java.util.ArrayList;
 
+@SuppressWarnings("ALL")
 public class gen13 {
     public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<>();

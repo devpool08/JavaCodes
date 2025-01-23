@@ -1,8 +1,10 @@
 package D_OOPS;
+@SuppressWarnings("ALL")
 interface Call {
     int NUM = 10;
     void сall();
 }
+@SuppressWarnings("ALL")
 class Base {
     //int NUM = -5;
     int I=-8;
@@ -10,16 +12,19 @@ class Base {
         System.out.println("сall() of class BASE: i = " + I);
     }
 }
+@SuppressWarnings("ALL")
 class Client extends Base implements Call {
     public void сall() {
         System.out.println ("сall() of class Client inside the call method of interface: NUM =  " + NUM);
         super.сall();
     }
 }
+@SuppressWarnings("ALL")
 interface Interface1 {
     int someField = 100;
     String someMethod();
 }
+@SuppressWarnings("ALL")
 interface Interface2 {
     double someField = 200.5;
     String someMethod();
@@ -30,6 +35,7 @@ interface Interface2 {
         System.out.println("hello");
     }
 }
+@SuppressWarnings("ALL")
 class SomeClass implements Interface2, Interface1 {
     @Override
     public String someMethod() {
@@ -39,6 +45,7 @@ class SomeClass implements Interface2, Interface1 {
     }
 
 }
+@SuppressWarnings("ALL")
 public class i_Interface2 {
     public static void main(String[] args) {
         Call object = new Client();
